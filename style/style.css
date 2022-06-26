@@ -30,7 +30,7 @@ body{
     filter: blur(5px);
 }
 .circle:nth-child(1){
-    animation: moveRight 2s linear infinite;
+    animation: moveRight 3s linear infinite;
     position: absolute;
     left: 40%;
     transform: translateX(-50%);
