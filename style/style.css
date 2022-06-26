@@ -32,17 +32,17 @@ body{
 .circle:nth-child(1){
     animation: moveRight 3s linear infinite;
     position: absolute;
-    left: 40%;
+    left: 50%;
     transform: translateX(-50%);
 }
 @keyframes moveRight {
     0%{
-        transform: translateX(40px);
+        transform: translateX(-100px);
     }
     50%{
-        transform: translateX(200px);
+        transform: translateX(60px);
     }
     100%{
-        transform: translateX(40px);
+        transform: translateX(-100px);
     }
 }
